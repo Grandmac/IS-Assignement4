@@ -1,0 +1,47 @@
+/*-------------------------------------------*\
+    GLOBAL STYLES
+\*-------------------------------------------*/
+
+body {
+    margin: auto;
+    max-width: 400px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4, h5, h6, p, ol {
+    margin: 0;
+}
+
+/*-------------------------------------------*\
+    HEADER
+\*-------------------------------------------*/
+
+header h1  {
+    text-align: center;
+}
+
+
+/*-------------------------------------------*\
+    BODY
+\*-------------------------------------------*/
+
+article h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.userInfos {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.userInfos > ul > li {
+    list-style-type: none;
+}
